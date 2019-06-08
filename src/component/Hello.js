@@ -8,7 +8,7 @@ class Hello extends React.Component {
 
     return (
       <div>
-        <img src={this.props.img} alt="lambda"/>
+        <img src={this.props.img} alt="lambda" />
         <p>
           Greetings {this.props.to}, from {this.props.from}
           {bangs}
@@ -16,6 +16,7 @@ class Hello extends React.Component {
 
         <p>node sass {twoDash}save</p>
 
+        <p>Did you program today{questionMark}</p>
       </div>
     );
   }
