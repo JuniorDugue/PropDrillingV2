@@ -1,12 +1,12 @@
-import React from "react"
+import React from "react";
 
-class Hello extends React.Component{
-  render(){
-    return(
+class Hello extends React.Component {
+  render() {
+    return (
       <div>
-        Hello
+        <p>Greetings {this.props.to}, from {this.props.from}</p>
       </div>
-    )
+    );
   }
 }
 

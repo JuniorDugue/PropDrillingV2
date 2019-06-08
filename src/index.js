@@ -8,7 +8,10 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <Hello />
+      <Hello 
+      to="Ringo"
+      from="Paul"
+      />
     </div>
   );
 }
